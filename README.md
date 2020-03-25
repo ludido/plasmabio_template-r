@@ -1,10 +1,11 @@
-# Template material in Re
+# Template material in R
 
 Example repository to create an environment with course materials in R.
 
 ## Try it on Binder
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/plasmabio/template-r/master?urlpath=%2Flab/)
+
 
 ## Structure of the repo
 
@@ -20,6 +21,7 @@ This repository follows the [binder-examples/conda](https://github.com/binder-ex
 Once created, the environment can be reused without building it again.
 
 For more information, see the [extensive rep2docker documentation](https://repo2docker.readthedocs.io).
+
 
 ## Materials
 

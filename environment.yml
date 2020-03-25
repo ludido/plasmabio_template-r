@@ -1,10 +1,8 @@
 name: plasmabio-template-r
 channels:
-  - r
   - conda-forge
 dependencies:
   - jupyterlab=2
   - nbresuse
   - r-irkernel
   - r-base>=3.6
-  - r-tidyverse
