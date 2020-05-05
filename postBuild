@@ -1,4 +1,5 @@
 jupyter labextension install \
   jupyterlab-topbar-extension \
-  jupyterlab-system-monitor
+  jupyterlab-system-monitor \
+  jupyterlab-topbar-text
 
