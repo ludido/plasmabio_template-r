@@ -16,8 +16,9 @@ This repository is based on the [binder-examples/conda](https://github.com/binde
 `repo2docker` can be configured with several types of files. In the case of this repo:
 
 - `binder/environment.yml`: specify dependencies that will be installed using `conda`
-- `binder/install.R`: specify R dependencies that will be installed using `install.packages()`
-- `binder/postBuild`: specify extra dependencies such as JupyterLab extensions
+- `binder/postBuild`: specify extra dependencies:
+  - JupyterLab extensions,
+  - R or Bioconductor packages *not available* in [Anaconda cloud](https://anaconda.org/) (*i.e* not installable by `conda`).
 
 Both Jupyter Lab and RStudio are installed.
 
@@ -32,4 +33,4 @@ Materials can be added anywhere to this repository, either at the top level or i
 
 When building the environment, the materials (and any other file) will be copied to the Docker image.
 
-In this example, there is already a test notebook available under `example-notebook.ipynb`.
+In this example, there is already a test notebook (`example-notebook.ipynb`) and a test R script (`example-script.R`).
