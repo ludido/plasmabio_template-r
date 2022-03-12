@@ -4,7 +4,9 @@ Example repository to create an environment with course materials in R.
 
 ## Try it on Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/plasmabio/template-r/master?urlpath=%2Flab/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/plasmabio/template-r/master?urlpath=%2Flab/) Jupyter + R kernel
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/plasmabio/template-r/master?urlpath=rstudio) RStudio
 
 
 ## Structure of the repo
@@ -16,11 +18,9 @@ This repository is based on the [binder-examples/conda](https://github.com/binde
 `repo2docker` can be configured with several types of files. In the case of this repo:
 
 - `binder/environment.yml`: specify dependencies that will be installed using `conda`
-- `binder/postBuild`: specify extra dependencies:
-  - JupyterLab extensions,
-  - R or Bioconductor packages *not available* in [Anaconda cloud](https://anaconda.org/) (*i.e* not installable by `conda`).
+- `binder/postBuild`: specify R or Bioconductor packages *not available* in [Anaconda cloud](https://anaconda.org/) (*i.e* not installable by `conda`).
 
-Both Jupyter Lab and RStudio are installed.
+Both JupyterLab and RStudio are installed.
 
 Once created, the environment can be reused without building it again.
 
