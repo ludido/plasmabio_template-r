@@ -1,8 +1,3 @@
-jupyter labextension install \
-  jupyterlab-topbar-extension \
-  jupyterlab-system-monitor \
-  jupyterlab-topbar-text
-
 # Install R package
 # if not available as conda package
 R -e "install.packages('diagram', repos='http://cran.rstudio.com/')"
