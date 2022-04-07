@@ -7,12 +7,14 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
+  # Jupyter dependencies
+  - jupyterhub>=1.5,<2
   - jupyterlab>=3.2,<4
   - jupyter-resource-usage
   - jupyterlab-topbar
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
-  - nodejs
+  # R environment
   - r-irkernel
   - r-base>=4
   - r-tidyverse
