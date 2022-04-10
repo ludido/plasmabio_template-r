@@ -20,4 +20,7 @@ dependencies:
   - r-tidyverse
   - r-caret
   - r-rpart
+  - r-rpart.plot
+  - r-corrplot
+  - r-h2o
 
