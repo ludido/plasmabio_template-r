@@ -25,5 +25,5 @@ dependencies:
   - r-rpart
   - r-rpart.plot
   - r-corrplot
-  - r-h2o
+  - r-randomForest
 
